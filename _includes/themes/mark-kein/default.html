@@ -28,7 +28,7 @@
     <![endif]-->
 </head><body>
 <div class="hd bg_gray1 h115 box_shadow1">
-  <header class="w1200 center">
+  <header class="w1200 center" id="header">
     <h1><a href="{{ HOME_PATH }}">KEIn.pw</a></h1>
     <p>/kei/'s personal website</p>
   </header>
@@ -36,17 +36,21 @@
 <div class="bd mt15 w1200 center">
   <section class="main w920 box_shadow1 fr"> {{ content }} </section>
   <aside class="fixed p4 w220 box_shadow1 fl"> <a class="github" href="https://github.com/keinwang/keinwang.github.com" title="FORK me"></a>
-    <ul>
+    <ul class="menu">
       {% assign pages_list = site.pages %}
       {% assign group = 'navigation' %}
       {% include JB/pages_list %}
     </ul>
     <div class="cc"> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons License"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br />
       <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">署名·非商业用途·保持一致</a> </div>
+      <ul class="to_top">
+         <li><a href="#header">To Top</a></li>
+         <li><a href="#footer">To End</a></li>
+      </ul>
   </aside>
 </div>
 <div class="ft h165 mt20">
-  <footer class="w1200 center">
+  <footer class="w1200 center" id="footer">
     <p>Content by <a href="/info/site.html">{{ site.author.name }}</a>. Design by <a href="http://kein.pw/">KEIn</a>. Powered by <a href="http://github.com/mojombo/jekyll/" title="A static, minimalist CMS">Jekyll</a>.</p>
   </footer>
 </div>

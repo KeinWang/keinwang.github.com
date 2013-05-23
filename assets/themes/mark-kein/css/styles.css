@@ -44,15 +44,16 @@ time { font-family: Georgia, 'Georgia2', serif; font-size: 18px; line-height: 24
 .column article { border-bottom: solid 1px #e4e4ec; padding: 18px 0; }
 .column article p { padding: 12px 0; font-size: 18px; line-height: 24px; text-indent: 2em; }
 .column article h2 { font-size: 20px; padding: 10px 0; line-height: 30px; }
-aside { font-family: Georgia, 'Georgia2', serif; font-size: 24px; background: #fafafc; }
+aside { font-family: Georgia, 'Georgia2', serif; font-size: 20px; background: #fafafc; }
 .github { display: block; background: url(/assets/themes/mark-kein/images/github.png) no-repeat 55px 8px; width: 220px; height: 165px; }
 .cc { width: 104px; height: 45px; padding-left: 58px; text-align:center;}
 .cc img { vertical-align: top; }
 .cc a { font-family: "新宋体", serif; font-size: 8px; line-height: 10px; }
-aside ul { width: 104px; padding: 40px 58px; }
-aside ul li { line-height: 32px; }
-aside ul li a { text-transform: uppercase; }
-aside li nav a { text-transform: capitalize; font-size: 18px; display: inline-block; padding-left: 15px; line-height: 24px; }
+.menu { width: 104px; padding: 40px 58px; }
+.menu li { line-height: 32px; }
+.menu li a { text-transform: uppercase; }
+.menu li nav a { text-transform: capitalize; font-size: 18px; display: inline-block; padding-left: 15px; line-height: 24px; }
+.to_top li a{ font-size:12px;}
 /* Footer */
 .ft { border-top: solid 5px rgba(202,25,31,0.8); background: url(/assets/themes/mark-kein/images/bg2.png); }
 .ft footer { text-align: center; }
