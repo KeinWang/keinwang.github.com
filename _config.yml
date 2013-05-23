@@ -83,13 +83,13 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : kein
     livefyre :
-      site_id : 123
+      site_id : keinwang
     intensedebate :
-      account : 123abc
+      account : keinwang
     facebook :
-      appid : 123
+      appid : keinwang
       num_posts: 5
       width: 580
       colorscheme: light
@@ -101,7 +101,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : ''
     getclicky :
       site_id : 
     mixpanel :

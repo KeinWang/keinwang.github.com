@@ -1,0 +1,22 @@
+<div class="column">
+  <header>
+    <h1><a href="#">{{ page.title }}</a></h1>
+    <time>{{ page.date }}</time>
+  </header>
+  <article>
+    <ul class="tag_box inline">
+      {% assign tags_list = page.tags %}
+      {% include JB/tags_list %}
+    </ul>
+    {{ content }} 
+    <ul class="tag_box inline">
+      {% assign tags_list = page.tags %}
+      {% include JB/tags_list %}
+    </ul>
+    </article>
+  <div class="prev-next"> {% if page.next %} <a href="{{ page.next.url }}" class="next" title="{{ page.next.title }}">Next Post &rarr;</a> {% endif %}
+    {% if page.previous %} <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; Earlier Post</a> {% endif %} </div>
+</div>
+<!-- Article Page --> 
+
+{% include JB/comments %} 

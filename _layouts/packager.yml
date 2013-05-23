@@ -2,4 +2,4 @@
 layout: default
 ---
 {% include JB/setup %}
-{% include themes/mark-kein/post.html %}
+{% include themes/mark-kein/packager.yml %}

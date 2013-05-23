@@ -1,0 +1,80 @@
+/* styles.css
+ *
+ * AUTHOR: Mark KEIn <wyk17@qq.com>
+ */
+
+/*  Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img,iframe{border:0}address,caption,cite,code,dfn,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}abbr,acronym{border:0;font-variant:normal}input,textarea,select{background:none;border:0;}img{vertical-align:top}a{text-decoration:none}
+
+/* Base text styles */
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #232323; background: url(/assets/themes/mark-kein/images/bg1.png); line-height: 1.3em; }
+.fl { float: left; }
+.fr { float: right; }
+.clrfix:after { clear: both; content: “.”;
+display: block; height: 0; visibility: hidden; overflow: hidden }
+a { text-decoration: none; color: inherit; }
+a:hover { text-decoration: underline; }
+.center { margin: 0 auto; }
+.bg_gray1 { background: #fafafc; }
+.gray1 { color: #CCC; }
+.w220 { width: 220px; }
+.w920 { width: 920px; }
+.w1200 { width: 1200px; }
+.h115 { height: 115px; }
+.h165 { height: 165px; }
+.box_shadow1 { box-shadow: 0 0 5px 0 rgba(0,0,0,0.3); }
+.mt10 { margin-top: 10px; }
+.mt15 { margin-top: 15px; }
+.mt20 { margin-top: 20px; }
+.p4 { padding: 4px; }
+/* Header */
+.hd header { text-align: center; padding-top: 44px; }
+@font-face{ font-family:'BankGothicLtBT2'; src:url(/assets/themes/mark-kein/fonts/BankGothicLtBT2-webfont.ttf)}
+.hd h1 { font-family: "BankGothic Lt BT","BankGothicLtBT2", serif; line-height: 32px; font-size: 48px; text-shadow: 0 0 2px #000; }
+.hd p { padding-right: 300px; font-size: 18px; font-family: "Times New Roman", Times, serif; text-align: right; }
+/* Section - for main page content */
+.bd { padding-bottom: 20px; position: relative; clear: both; overflow: hidden; }
+aside.fixed { min-height: 688px; }
+section.main { padding: 4px 32px 0 20px; min-height: 886px; background: #fff; }
+.column {}
+.column header { border-bottom: solid 1px #e4e4ec; height: 90px; text-align: center; }
+.column h1 { font-family: "新宋体", serif; font-size: 30px; padding-top: 24px; line-height: 32px; font-weight:bold;}
+@font-face { font-family: Georgia2; src: url(/assets/themes/mark-kein/fonts/georgiab2-webfont.ttf); }
+time { font-family: Georgia, 'Georgia2', serif; font-size: 18px; line-height: 24px; }/*调过来不行font-family: Georgia, 'Georgia2', serif; */
+.column article { border-bottom: solid 1px #e4e4ec; padding: 18px 0; }
+.column article p { padding: 12px 0; font-size: 18px; line-height: 24px; text-indent: 2em; }
+.column article h2 { font-size: 20px; padding: 10px 0; line-height: 30px; }
+aside { font-family: Georgia, 'Georgia2', serif; font-size: 24px; background: #fafafc; }
+.github { display: block; background: url(/assets/themes/mark-kein/images/github.png) no-repeat 55px 8px; width: 220px; height: 165px; }
+.cc { width: 104px; height: 45px; padding-left: 58px; text-align:center;}
+.cc img { vertical-align: top; }
+.cc a { font-family: "新宋体", serif; font-size: 8px; line-height: 10px; }
+aside ul { width: 104px; padding: 40px 58px; }
+aside ul li { line-height: 32px; }
+aside ul li a { text-transform: uppercase; }
+aside li nav a { text-transform: capitalize; font-size: 18px; display: inline-block; padding-left: 15px; line-height: 24px; }
+/* Footer */
+.ft { border-top: solid 5px rgba(202,25,31,0.8); background: url(/assets/themes/mark-kein/images/bg2.png); }
+.ft footer { text-align: center; }
+.ft p { padding-top: 75px; color: #fff; font-family: "BankGothic Lt BT", serif; font-size: 18px; text-shadow: 1px 1px 1px rgba(0,0,0,0.5); }
+
+/* .prev-next */
+.prev-next { position: relative; }
+.prev-next .next { float: right; }
+/* tag_box ======================================================== */
+.tag_box { list-style: none; margin: 0; padding: 5px 0; overflow: hidden; }
+.tag_box li { list-style: none; line-height: 1.8em; }
+.tag_box.inline li { float: left; }
+.tag_box a { padding: 3px 6px; margin: 2px; background: #eee; border-radius: 3px; border: 1px dashed #ccc; text-decoration: none; }
+.tag_box a span { vertical-align: super; font-size: 0.8em; }
+.tag_box a.active { background: #57A957; border: 1px solid #4C964D; color: #FFF; }
+
+/* Code blocks */
+pre { margin: 1em 0 1.5em 0; font-size: 0.75em; /* Hack to make code look same size as body font */ line-height: 1.5em; color: #111; background: #fffff0; border: 1px solid #ddc; padding: 0.5em 1em; overflow: hidden; /* Experimental CSS3 stuff */
+box-shadow: 1px 1px 6px #ccc; -webkit-box-shadow: 1px 1px 6px #ccc; -moz-box-shadow: 1px 1px 6px #ccc; }
+code { font-size: 1em; background-color: #f7f7ff; line-height: 1.4em; }
+pre > code { background-color: transparent; }
+
+/* Tables */
+
+/* Wrapper */
