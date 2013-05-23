@@ -34,7 +34,7 @@ a:hover { text-decoration: underline; }
 .hd p { padding-right: 300px; font-size: 18px; font-family: "Times New Roman", Times, serif; text-align: right; }
 /* Section - for main page content */
 .bd { padding-bottom: 20px; position: relative; clear: both; overflow: hidden; }
-aside.fixed { min-height: 688px; }
+aside.fixed { min-height: 521px; }
 section.main { padding: 4px 32px 0 20px; min-height: 886px; background: #fff; }
 .column {}
 .column header { border-bottom: solid 1px #e4e4ec; height: 90px; text-align: center; }
@@ -53,6 +53,7 @@ aside { font-family: Georgia, 'Georgia2', serif; font-size: 20px; background: #f
 .menu li { line-height: 32px; }
 .menu li a { text-transform: uppercase; }
 .menu li nav a { text-transform: capitalize; font-size: 18px; display: inline-block; padding-left: 15px; line-height: 24px; }
+.to_top { text-align:right; margin-top:20px; padding-left:20px;}
 .to_top li a{ font-size:12px;}
 /* Footer */
 .ft { border-top: solid 5px rgba(202,25,31,0.8); background: url(/assets/themes/mark-kein/images/bg2.png); }
@@ -73,7 +74,20 @@ aside { font-family: Georgia, 'Georgia2', serif; font-size: 20px; background: #f
 /* Code blocks */
 pre { margin: 1em 0 1.5em 0; font-size: 0.75em; /* Hack to make code look same size as body font */ line-height: 1.5em; color: #111; background: #fffff0; border: 1px solid #ddc; padding: 0.5em 1em; overflow: hidden; /* Experimental CSS3 stuff */
 box-shadow: 1px 1px 6px #ccc; -webkit-box-shadow: 1px 1px 6px #ccc; -moz-box-shadow: 1px 1px 6px #ccc; }
-code { font-size: 1em; background-color: #f7f7ff; line-height: 1.4em; }
+code { font-size: 1em;  line-height: 1.4em; 
+	 margin: 0 2px;
+  padding: 2px 5px;
+  white-space: nowrap;
+  border: 1px solid #CCC;
+  background-color: #F8F8F8;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+
+	}
 pre > code { background-color: transparent; }
 
 /* Tables */
