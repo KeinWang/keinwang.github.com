@@ -1,7 +1,7 @@
 <div class="column">
   <header>
     <h1><a href="#">{{ page.title }}</a></h1>
-    <time>{{ site.time | date_to_string }}</time>
+    <time>{{ page.date }}</time>
   </header>
   <article> {{ content }} </article>
 </div>

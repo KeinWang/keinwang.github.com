@@ -44,6 +44,7 @@ time { font-family: Georgia, 'Georgia2', serif; font-size: 18px; line-height: 24
 .column article { border-bottom: solid 1px #e4e4ec; padding: 18px 0; }
 .column article p { padding: 12px 0; font-size: 18px; line-height: 24px; text-indent: 2em; }
 .column article h2 { font-size: 20px; padding: 10px 0; line-height: 30px; }
+.column article a {border-bottom:2px dotted rgb(9, 185, 16);}
 aside { font-family: Georgia, 'Georgia2', serif; font-size: 20px; background: #fafafc; }
 .github { display: block; background: url(/assets/themes/mark-kein/images/github.png) no-repeat 55px 8px; width: 220px; height: 165px; }
 .cc { width: 104px; height: 45px; padding-left: 58px; text-align:center;}
@@ -60,7 +61,7 @@ aside { font-family: Georgia, 'Georgia2', serif; font-size: 20px; background: #f
 .ft footer { text-align: center; }
 .ft p { padding-top: 75px; color: #fff; font-family: "BankGothic Lt BT", serif; font-size: 18px; text-shadow: 1px 1px 1px rgba(0,0,0,0.5); }
 
-/* .prev-next */
+/* prev-next */
 .prev-next { position: relative; }
 .prev-next .next { float: right; }
 /* tag_box ======================================================== */
@@ -88,7 +89,7 @@ code { font-size: 1em;  line-height: 1.4em;
   background-clip: padding-box;
 
 	}
-pre > code { background-color: transparent; }
+pre > code { background-color: transparent; margin:0; padding: 0; border:0;}
 
 /* Tables */
 
