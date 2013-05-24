@@ -4,7 +4,8 @@ title: 简历
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
-应聘职位：_Web前端开发_
+
+应聘职位：`Web前端开发`
 
 [**的简历**](https://skydrive.live.com/embed?cid=0D758B9C95E98F80&resid=D758B9C95E98F80%21252&authkey=APO8LDqvVu2meSQ&em=2)
 
