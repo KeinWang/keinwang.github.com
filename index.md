@@ -7,7 +7,7 @@ tagline: Supporting tagline
 
 应聘职位：`Web前端开发`
 
-[**的简历**](https://skydrive.live.com/embed?cid=0D758B9C95E98F80&resid=D758B9C95E98F80%21252&authkey=APO8LDqvVu2meSQ&em=2)
+[**我的简历**](https://skydrive.live.com/embed?cid=0D758B9C95E98F80&resid=D758B9C95E98F80%21252&authkey=APO8LDqvVu2meSQ&em=2)
 
 我的作品：
 1.[艺术展览](http://www.yszl.org) | 2.[天一画室](http://www.hztyhs.com) | 3.[银木科技](http://yinmusoft.com)| 4.[老鹰画室](http://www.hzlyhs.com) | 5.[中国美术高考网](http://www.msgao.com)
