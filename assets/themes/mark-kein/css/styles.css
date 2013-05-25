@@ -38,7 +38,7 @@ aside.fixed { min-height: 521px; }
 section.main { padding: 4px 32px 0 20px; min-height: 886px; background: #fff; }
 .column {}
 .column header { border-bottom: solid 1px #e4e4ec; height: 90px; text-align: center; }
-.column h1 { font-family: "新宋体", serif; font-size: 30px; padding-top: 24px; line-height: 32px; font-weight:bold;}
+.column h1 {  font-family: Georgia, 'Georgia2',"新宋体", serif; font-size: 30px; padding-top: 24px; line-height: 32px; font-weight:bold;}
 @font-face { font-family: Georgia2; src: url(/assets/themes/mark-kein/fonts/georgiab2-webfont.ttf); }
 time { font-family: Georgia, 'Georgia2', serif; font-size: 18px; line-height: 24px; }/*调过来不行font-family: Georgia, 'Georgia2', serif; */
 .column article { border-bottom: solid 1px #e4e4ec; padding: 18px 0; }
@@ -75,7 +75,7 @@ aside { font-family: Georgia, 'Georgia2', serif; font-size: 20px; background: #f
 /* Code blocks */
 pre { margin: 1em 0 1.5em 0; font-size: 0.75em; /* Hack to make code look same size as body font */ line-height: 1.5em; color: #111; background: #fffff0; border: 1px solid #ddc; padding: 0.5em 1em; overflow: hidden; /* Experimental CSS3 stuff */
 box-shadow: 1px 1px 6px #ccc; -webkit-box-shadow: 1px 1px 6px #ccc; -moz-box-shadow: 1px 1px 6px #ccc; }
-code { font-size: 1em;  line-height: 1.4em; 	 margin: 0 2px;  padding:1px 2px;  white-space: nowrap;  border: 1px solid #CCC;  background-color: #F8F8F8;  -webkit-border-radius: 3px;  -moz-border-radius: 3px;  border-radius: 3px;  -moz-background-clip: padding;  -webkit-background-clip: padding-box;  background-clip: padding-box;	}
+code { font-size: 14px;  line-height: 1.4em; 	 margin: 0 2px;  padding:1px 2px;  white-space: nowrap;  border: 1px solid #CCC;  background-color: #F8F8F8;  -webkit-border-radius: 3px;  -moz-border-radius: 3px;  border-radius: 3px;  -moz-background-clip: padding;  -webkit-background-clip: padding-box;  background-clip: padding-box;	}
 pre > code { background-color: transparent; margin:0; padding: 0; border:0;}
 
 /* Tables */
