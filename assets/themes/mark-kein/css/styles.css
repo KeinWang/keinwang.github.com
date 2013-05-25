@@ -42,7 +42,7 @@ section.main { padding: 4px 32px 0 20px; min-height: 886px; background: #fff; }
 @font-face { font-family: Georgia2; src: url(/assets/themes/mark-kein/fonts/georgiab2-webfont.ttf); }
 time { font-family: Georgia, 'Georgia2', serif; font-size: 18px; line-height: 24px; }/*调过来不行font-family: Georgia, 'Georgia2', serif; */
 .column article { border-bottom: solid 1px #e4e4ec; padding: 18px 0; }
-.column article p { padding: 12px 0; font-size: 18px; line-height: 24px; text-indent: 2em; }
+.column article p { padding: 12px 0; font-size: 16px; line-height: 24px; text-indent: 2em; }
 .column article h2 { font-size: 20px; padding: 10px 0; line-height: 30px; }
 .column article a {border-bottom:2px dotted rgb(9, 185, 16);}
 aside { font-family: Georgia, 'Georgia2', serif; font-size: 20px; background: #fafafc; }
