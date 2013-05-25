@@ -4,7 +4,7 @@
  */
 
 /*  Reset */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img,iframe{border:0}address,caption,cite,code,dfn,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}abbr,acronym{border:0;font-variant:normal}input,textarea,select{background:none;border:0;}img{vertical-align:top}a{text-decoration:none}pre, code, kbd, samp { font-family: 'courier new', monospace; font-size: 1em; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img,iframe{border:0}address,caption,cite,code,dfn,var{font-style:normal;font-weight:normal}ul{list-style:none}caption,th{text-align:left}abbr,acronym{border:0;font-variant:normal}input,textarea,select{background:none;border:0;}img{vertical-align:top}a{text-decoration:none}pre, code, kbd, samp { font-family: 'courier new', monospace; font-size: 1em; }
 
 /* Base text styles */
 body {  font-family: Georgia, 'Georgia2',simsun,serif; font-size: 14px; color: #232323; background: url(/assets/themes/mark-kein/images/bg1.png); line-height: 1.3em; }
@@ -27,6 +27,7 @@ a:hover { text-decoration: underline; }
 .mt15 { margin-top: 15px; }
 .mt20 { margin-top: 20px; }
 .p4 { padding: 4px; }
+ol{padding-left: 50px}
 /* Header */
 .hd header { text-align: center; padding-top: 44px; }
 @font-face{ font-family:'BankGothicLtBT2'; src:url(/assets/themes/mark-kein/fonts/BankGothicLtBT2-webfont.ttf)}
@@ -79,7 +80,7 @@ code { font-size: 14px;  line-height: 1.4em; 	 margin: 0 2px;  padding:1px 2px; 
 pre > code { background-color: transparent; margin:0; padding: 0; border:0;}
 
 /* QUOTES =============================================================================*/
-blockquote {  border-left: 4px solid #DDD;  padding: 0 15px;  color: #777;}
+blockquote {  border-left: 4px solid #DDD;  color: #777;}
 
 /* Tables */
 
