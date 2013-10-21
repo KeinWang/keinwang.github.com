@@ -12,4 +12,4 @@ tagline: Supporting tagline
 2.[天一画室](http://www.hztyhs.com) | 
 3.[银木科技](http://yinmusoft.com)| 
 4.[老鹰画室](http://www.hzlyhs.com) | 
-5.[中国美术高考网](http://www.msgao.com
+5.[中国美术高考网](http://www.msgao.com)
